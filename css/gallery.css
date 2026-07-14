@@ -57,4 +57,3 @@
 @media (max-width: 560px) {
   #game-grid, #photo-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--sp-2); }
 }
-
