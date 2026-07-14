@@ -346,16 +346,15 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
   box-shadow: var(--shadow-md);
   transition: border-color 0.4s var(--ease), box-shadow 0.4s var(--ease);
 }
-.hero-portrait:hover { border-color: var(--border-strong); }
+.hero-portrait:hover { border-color: var(--signal); }
 .hero-portrait img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: grayscale(0.65) contrast(1.02);
   transform: scale(1.0);
-  transition: filter 0.7s var(--ease), transform 0.7s var(--ease);
+  transition: transform 0.5s var(--ease), filter 0.5s var(--ease);
 }
-.hero-portrait:hover img { filter: grayscale(0); transform: scale(1.035); }
+.hero-portrait:hover img { transform: scale(1.035); filter: saturate(1.12); }
 .hero-portrait::after {
   content: "";
   position: absolute;
