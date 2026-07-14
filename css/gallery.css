@@ -5,7 +5,10 @@
   gap: var(--sp-4);
 }
 
-/* Game covers are 16:9 screenshots — sizing the tile to match means no cropping of the part that actually identifies the game. Photos are mostly square exports, so a square tile fits the source material with the least cropping there too. */
+/* Game covers are 16:9 screenshots — sizing the tile to match means no
+   cropping of the part that actually identifies the game. Photos are
+   mostly square exports, so a square tile fits the source material with
+   the least cropping there too. */
 #game-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
 #photo-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
 
