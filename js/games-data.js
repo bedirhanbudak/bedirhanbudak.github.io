@@ -118,7 +118,7 @@ const GAMES = [
   {"img":"r6.jpg","title":"Tom Clancy's Rainbow Six Siege","sub":null},
   {"img":"twelve_minutes.jpg","title":"Twelve Minutes","sub":null},
   {"img":"uncharted.jpg","title":"UNCHARTED™ 4: A Thief's End","sub":null},
-  {"img":"uncharted_lost_legacy.jpeg","title":"UNCHARTED™ 4: The Lost Legacy","sub":null},
+  {"img":"uncharted_lost_legacy.jpeg","title":"UNCHARTED™: The Lost Legacy","sub":null},
   {"img":"unpacking.jpg","title":"Unpacking","sub":null},
   {"img":"viscera.jpg","title":"Viscera Cleanup Detail","sub":null},
   {"img":"witcher3.jpg","title":"Witcher 3","sub":null},
