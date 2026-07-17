@@ -473,6 +473,30 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
   font-style: italic;
 }
 .tl-role em { color: var(--muted); font-style: italic; font-weight: 400; }
+.tl-details {
+  margin-top: var(--sp-3);
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--border);
+  display: grid;
+  gap: 0.45em;
+}
+.tl-details li {
+  position: relative;
+  padding-left: 1.1em;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+.tl-details li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--signal);
+}
 
 /* --------------------------------------------------------------------------
    9. DATA LOG (courses) — a scannable log/table instead of 22 heavy cards
