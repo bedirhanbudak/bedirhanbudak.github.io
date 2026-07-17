@@ -29,11 +29,11 @@
       next.forEach(function (item) {
         var tile = el("figure", "tile" + (opts.type === "photo" ? " photo-tile" : ""));
         var img = el("img");
-        img.src = opts.imgBase + (opts.type === "photo" ? item : item.img);
+        img.src = opts.imgBase + item.img;
         img.loading = "lazy";
         img.decoding = "async";
         img.alt = opts.type === "photo"
-          ? "Bedirhan Budak — photography, frame " + item.replace(/\D/g, "")
+          ? item.alt
           : item.title + (item.sub ? " — " + item.sub : "");
         tile.appendChild(img);
 
