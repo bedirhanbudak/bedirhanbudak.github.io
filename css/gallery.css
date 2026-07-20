@@ -1,14 +1,11 @@
-/* Gallery grids — used by game.html and photo.html on top of styles.css */
+/* Gallery grids -- shared by game.html and photo.html */
 
 .tile-grid {
   display: grid;
   gap: var(--sp-4);
 }
 
-/* Game covers are 16:9 screenshots — sizing the tile to match means no
-   cropping of the part that actually identifies the game. Photos are
-   mostly square exports, so a square tile fits the source material with
-   the least cropping there too. */
+/* Each grid gets a tile ratio that matches its source images */
 #game-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
 #photo-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
 
@@ -42,17 +39,8 @@
 .tile-caption .t-main { font-weight: 700; font-size: 0.86rem; line-height: 1.25; }
 .tile-caption .t-sub { font-size: 0.74rem; opacity: 0.85; margin-top: 0.15em; }
 
-/* Photo gallery uses a plain square tile, no caption needed */
+/* Photo tiles are square, no caption overlay */
 .tile.photo-tile { aspect-ratio: 1; }
-
-.tile-skeleton {
-  aspect-ratio: 16/9;
-  border-radius: var(--radius-md);
-  background: linear-gradient(100deg, var(--surface-2) 30%, var(--border) 50%, var(--surface-2) 70%);
-  background-size: 200% 100%;
-  animation: shimmer 1.4s infinite;
-}
-@keyframes shimmer { to { background-position: -200% 0; } }
 
 @media (max-width: 560px) {
   #game-grid, #photo-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--sp-2); }
