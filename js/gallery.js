@@ -1,9 +1,5 @@
-/* ==========================================================================
-   Gallery renderer — shared by game.html and photo.html.
-   Renders in batches instead of dumping 100+ <img> tags into the DOM at
-   once; combined with loading="lazy" this keeps first paint light while
-   still giving access to every item in the original collection.
-   ========================================================================== */
+/* Gallery renderer, shared by game.html and photo.html. */
+/* Renders in batches with a "Load more" button instead of all at once. */
 (function () {
   "use strict";
 

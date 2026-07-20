@@ -1,8 +1,4 @@
-/* ==========================================================================
-   Shared site behaviour — mobile nav, accessible dropdowns, scroll reveal,
-   lightbox. Loaded on every page (defer). The site now ships one deliberate
-   dark theme, so there is no theme-switching logic here anymore.
-   ========================================================================== */
+/* Shared site behaviour: mobile nav, dropdowns, scroll reveal, lightbox */
 (function () {
   "use strict";
 
@@ -21,7 +17,7 @@
     });
   }
 
-  /* ---------- Accessible dropdowns (Academic / Certifications) ---------- */
+  /* ---------- Dropdown menus ---------- */
   var dropdownTriggers = document.querySelectorAll(".nav-link.has-dropdown");
   dropdownTriggers.forEach(function (trigger) {
     trigger.addEventListener("click", function (e) {
@@ -69,7 +65,7 @@
     revealEls.forEach(function (el) { io.observe(el); });
   }
 
-  /* ---------- Lightbox (certifications / photos) ---------- */
+  /* ---------- Lightbox (certifications / games / photos) ---------- */
   var lightbox = document.querySelector(".lightbox");
   if (lightbox) {
     var lbImg = lightbox.querySelector("img");
