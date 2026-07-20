@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://bedirhanbudak.com/index.html</loc>
+    <loc>https://bedirhanbudak.com/</loc>
   </url>
   <url>
-    <loc>https://bedirhanbudak.com/experience.html</loc>
+    <loc>https://bedirhanbudak.com/experience</loc>
   </url>
   <url>
-    <loc>https://bedirhanbudak.com/education.html</loc>
+    <loc>https://bedirhanbudak.com/certification</loc>
   </url>
   <url>
-    <loc>https://bedirhanbudak.com/course.html</loc>
+    <loc>https://bedirhanbudak.com/game</loc>
   </url>
   <url>
-    <loc>https://bedirhanbudak.com/certification.html</loc>
-  </url>
-  <url>
-    <loc>https://bedirhanbudak.com/game.html</loc>
-  </url>
-  <url>
-    <loc>https://bedirhanbudak.com/photo.html</loc>
+    <loc>https://bedirhanbudak.com/photo</loc>
   </url>
 </urlset>
