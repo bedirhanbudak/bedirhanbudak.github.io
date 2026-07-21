@@ -54,6 +54,7 @@ const GAMES = [
   {"img": "mafia_def.jpg", "title": "Mafia", "sub": "Definitive Edition"},
   {"img": "mario_odyssey.jpg", "title": "Super Mario Odyssey", "sub": null},
   {"img": "metro_2033_redux.jpg", "title": "Metro 2033 Redux", "sub": null},
+  {"img": "metro_lastlight_redux.jpg", "title": "Metro Last Light Redux", "sub": null},
   {"img": "metro_exodus.jpg", "title": "Metro Exodus", "sub": null},
   {"img": "mimesis.jpg", "title": "MIMESIS", "sub": null},
   {"img": "spiderman.jpg", "title": "Marvel's Spider-Man Remastered", "sub": null},
