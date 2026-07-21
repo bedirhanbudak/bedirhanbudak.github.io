@@ -91,5 +91,5 @@ const GAMES = [
   {"img": "witcher3_family.jpg", "title": "Witcher 3", "sub": "Family"},
   {"img": "witcher3_triss.jpg", "title": "Witcher 3", "sub": "Triss Merigold"},
   {"img": "witcher3_hos.jpg", "title": "Witcher 3", "sub": "Hearts of Stone"},
-  {"img": "witcher3_bw.jpg", "title": "Witcher 3", "sub": "Blood and Wine"},
+  {"img": "witcher3_bw.jpg", "title": "Witcher 3", "sub": "Blood and Wine"}
 ];
